@@ -14,4 +14,4 @@ RUN npm install
 EXPOSE 8080
 
 # アプリの起動、コマンドを指定しよう。index.jsなら"node", "index.js"
-CMD ["node", "rbot.js"]
+CMD ["node", "index.js"]
